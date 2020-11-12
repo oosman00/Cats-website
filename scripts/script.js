@@ -15,7 +15,7 @@ function aboutCats()
 			
 function catsHealth() 
 {
-  document.getElementById("articleID").innerHTML = "<div class=\"fas fa-briefcase-medical\"><h1>Cat Health</h1></div><p>When caring for your cat you need to keep in mind the top basics. Feeding, grooming, housing, litter box, and health. This includes vaccinations and doctor visits at least once a year or immediately when they’re sick. </p><img id=\"doctor\"src=\"images\/catatdoctor.jpg\" alt=\"cat at doctor\">"
+  document.getElementById("articleID").innerHTML = "<div class=\"fas fa-briefcase-medical\"><h1>Cat Health</h1></div><p>When caring for your cat you need to keep in mind the top basics. Feeding, grooming, housing, litter box, and health. This includes vaccinations and doctor visits at least once a year or immediately when they’re sick. </p><img id=\"doctor\"src=\"images\/catsatdoctors.jpg\" alt=\"cat at doctor\">"
 }
 	
 function catsForAdoption() 
