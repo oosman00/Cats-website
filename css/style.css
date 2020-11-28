@@ -67,6 +67,8 @@ header {
     text-align: center;
     font-size: 35px;
     color: white;
+    box-shadow: 0 0 4px black;
+    position: relative;
 }
 
 
@@ -77,10 +79,8 @@ Create two columns/boxes that floats next to each other
 
 nav {
     float: left;
-    width: 30%;
     height: 100%;
-    background: ;
-    padding: 20px;
+    width: 5%;
     font-size: 2em;
 }
 
@@ -103,11 +103,12 @@ Rosa
 article {
     float: left;
     padding: 20px;
-    width: 70%;
+    width: 95%;
     background-color: #f1f1f1;
     color: #E3A386;
     height: 100%;
     overflow: hidden scroll;
+    box-shadow: 0 0 5px black;
 }
 
 section {
@@ -142,4 +143,18 @@ section:after {
         width: 100%;
         height: auto;
     }
+}
+
+#menubutton {
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 0;
+    background: none;
+    color: #4C9C92;
+    font-size: 1.5em;
+}
+
+#menubutton:hover {
+    background-color: #E38459;
+    width: 100%;
 }
