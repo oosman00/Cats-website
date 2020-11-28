@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/contact.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
     <script src="scripts/script.js" defer>
     </script>
     <script src="https://kit.fontawesome.com/a076d05399.js">
@@ -15,12 +16,12 @@
 </head>
 
 <body>
-   
 
 
-<!-- Osman -->
- 
-</div>
+
+    <!-- Osman -->
+
+    </div>
 
 
     <!-- Osman -->
@@ -30,14 +31,13 @@
 
         <h2 style="color:#E38459">
             <img id="Headerimage" src="./images/logocat.png" alt="logocat" style="width:75px;height:100px;"> Cats
-            
+
         </h2>
 
         <style>
             #Headerimage {
                 float: center;
             }
-            
         </style>
 
 
@@ -53,52 +53,53 @@
     -Change text of links "Cat related links or to sections of our article about cats"
     -
 -->
-        <nav>
-            
-            <ul>
-                <li><a href="#articleID" class="fas fa-cat" id="AboutCats"> About Cats </a></li>
-                <li><a href="#"><i class="fas fa-address-book"></i>Contact</a></li>
-                <li><a href="#articleID" class="fas fa-briefcase-medical" id="CatsHealth">Cat Health </a></li>
-                <li><a href="#articleIDD" class="fas fa-hands-helping" id="CatsForAdoption">Cats For Adoption</a></li>
+        <nav id="nav">
+            <button class="on fas fa-ellipsis-h" id="menubutton" onclick="clickedbutton()"></button>
+            <ul class="off" id="links">
+                <li><a href="index.html#articleID" class="fas fa-hands-helping">Home</a></li>
+                <li><a href="about.html#articleID" class="fas fa-cat"> About Cats </a></li>
+                <li><a href="#articleID" class="fas fa-hands-helping" id="catsForAdoption">Cats For Adoption</a></li>
+                <li><a href="contact.html#articleID" class="fas fa-hands-helping">Contact Us</a></li>
             </ul>
         </nav>
 
 
         <!-- Osman -->
         <article id="articleID">
-            
-                <div class="container">
-    <p>CONTACT US</p><i class="fas fa-cat"></i>
+
+            <div class="container">
+                <p>CONTACT US</p><i class="fas fa-cat"></i>
 
 
-</button>
-    <div class="login">
-      <input type="text" placeholder="Your Name" class="input">
-      <input type="text" placeholder="Your Email Address" class="input">
-    </div>
-    
-    <div class="subject">
-      <input type="text" placeholder="Subject" class="input">
-    </div>
-    
-    <div class="msg">
-      <textarea  class="area" placeholder="Leave a Message"></textarea>
-    </div>
-    
-    <div class="btn">Send Message</div>
-  </div>
+                </button>
+                <div class="login">
+                    <input type="text" placeholder="Your Name" class="input">
+                    <input type="text" placeholder="Your Email Address" class="input">
+                </div>
 
-  
+                <div class="subject">
+                    <input type="text" placeholder="Subject" class="input">
+                </div>
+
+                <div class="msg">
+                    <textarea class="area" placeholder="Leave a Message"></textarea>
+                </div>
+
+                <div class="btn">Send Message</div>
+            </div>
+
+
         </article>
-      
+
 
     </section>
 
     <!-- Osman -->
     <footer>
-       
-  </footer>
+
+    </footer>
 
 
 </body>
+
 </html>

@@ -96,6 +96,7 @@ Style the list inside the menu
 */
 
 nav ul {
+    display: none;
     list-style-type: none;
     padding: 0px;
     width: 100%;
@@ -130,7 +131,7 @@ Rosa
 article {
     float: left;
     padding: 20px;
-    width: 100%;
+    width: 95%;
     background-color: #f1f1f1;
     color: #E3A386;
     height: 100%;
@@ -186,10 +187,6 @@ section:after {
         width: max-content;
         height: auto;
     }
-}
-
-.open {
-    width: 95%;
 }
 
 .closed {}
