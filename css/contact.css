@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+      }
+      body{
+    background: url("https://extension.unh.edu/sites/default/files/styles/1x_blog_main/public/field/image/maple-tree-in-park-110661300191011Zru.jpg?itok=W0pQAle8&timestamp=1567092160") no-repeat center;
+    background-size: cover;
+    height: auto;
+    font-family: 'Roboto';
+  }
+  .container{
+    max-width: 800px;
+    height: 600px;
+    background: #fff;
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+    box-sizing: border-box;
+    padding: 40px;
+  }
+  
+  p{
+    text-align: center;
+    letter-spacing: 1px;  
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #486255;
+  }
+  
+  .input,
+  .msg .area{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid #e9eaea;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    transform: all 0.5s ease;
+  }
+  
+  .login .input{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+  }
+  
+  .login .input:last-child{
+    margin-right: 0;
+  }
+  
+  .msg .area{
+    height: 200px;
+  }
+  
+  .btn{
+    width: 250px;
+    background: #486255;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .input:focus,
+  .msg .area:focus{
+    border: 2px solid #486255;
+  }
+  
+  ::-webkit-input-placeholder{
+    font-family: 'roboto';
+  }
+  .img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  #Aegean{
+      width: 25%;
+      clear: both;
+  }
+  ul h2#name{
+      color: #4C9C92;
+      text-shadow: 2px 2px 2px rgba(67, 139, 131, 0.562);
+  }
+  #greg{
+      border-radius: 5px;
+      float:right;
+      clear:inherit;    
+      margin-left: 10px;
+      width:15ch;
+      color: #E38459;
+  }
+  
+  /*
+  Osman
+  Style the footer 
+  */
+  footer {
+    background-color: #777;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  /*  
+  Osman
+  Style the header
+   */
+  header {
+    background-color: #666;
+    padding: 35px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  
+  
+  /* 
+  Rosa 
+  Create two columns/boxes that floats next to each other 
+  */
+  nav {
+    float: left;
+    width: 30%;
+    height: 100%;
+    background: 
+    padding: 20px;
+  }
+  
+  /*
+  Rosa
+  Style the list inside the menu 
+  */
+  nav ul {
+    list-style-type: none;
+    padding: 20px;
+  }
+  
+  /* 
+  Rosa
+  */
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    color:#E3A386;
+    height: 100%;
+    overflow: hidden scroll;
+  }
+  
+  
+  
+  section{
+      height: 100%;
+      width: 100%;
+     
+  }
+  #box{
+   /*    padding-right: 10%; */
+      display: flex;
+      justify-content: center;
+      border-style: solid;
+      border-radius: 3px;
+      padding-right: 5%;
+  }
+  /* Clear floats after the columns */
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
