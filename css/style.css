@@ -108,11 +108,10 @@ nav li a {
     text-decoration: none;
     display: inline-block;
     color: #c7744e;
-    style
 }
 
 a:visited {
-    color: #00FFE3845900;
+    color: #845900;
 }
 
 a:hover {
