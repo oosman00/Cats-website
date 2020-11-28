@@ -37,10 +37,11 @@ function menubutton() {
         navbar.width = "20%";
         article.width = "80%";
         links.display = "block";
+        links.fontSize = "2vmin";
     } else {
-
-        navbar.width = "5%";
-        article.width = "95%";
+        links.fontSize = "0";
+        navbar.width = "auto";
+        article.width = "96%";
         links.display = "none";
     }
 }
