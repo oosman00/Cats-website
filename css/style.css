@@ -43,7 +43,7 @@ ul h2#name {
     float: right;
     clear: inherit;
     margin-left: 10px;
-    width: 15ch;
+    width: 10%;
     color: #E38459;
 }
 
@@ -179,13 +179,26 @@ section:after {
 
 @media screen and (max-width: 1600px) {
     nav {
-        float: none;
+        float: right;
         width: 100%;
         height: auto;
     }
     #articleID {
         width: max-content;
         height: auto;
+        bottom: 500px;
+    }
+    #greg {
+        border-radius: 5px;
+        float: right;
+        clear: inherit;
+        margin-left: 10px;
+        width: 50%;
+        color: #E38459;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
     }
 }
 
